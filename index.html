@@ -61,38 +61,22 @@
                         </div>
                     </section>
                     <section>
+                        <h2>An App In Action</h2>
+                    </section>
+                    <section>
                         <h2>What we'll cover in this talk</h2>
                         <ul>
-                            <li class="fragment">Mac Development Environment</li>
+                            <li class="fragment">Cordova works with Windows, Linux, and Mac OS</li>
+                            <li class="fragment"> This talk: Mac Development Environment</li>
                             <li class="fragment">Command Line - mostly</li>
                             <li class="fragment">Building for iOS and Android...</li>
                             <li class="fragment">other device platforms exist!</li>
                         </ul>
                     </section>
                     <section>
-                        <div class="feature" style="margin-top: 180px;">
-                            <h2>What is Cordova?</h2>
-                        </div>
-                    </section>
-                    <section>
-                        <h2>The details</h2>
-                        <ul>
-                            <li class="fragment">Make native apps using HTML, CSS, and Javascript</li>
-                            <li class="fragment">Making the interface = building a webpage</li>
-                            <li class="fragment">Native advantage - Access parts of the device that a webpage can't</li>
-                        </ul>
-                    </section>
-                    <section>
                         <h2>So many apps!</h2>
                         <div>
                             <img src="img/intro/001-many-apps.png" style="max-height:300px" />
-                        </div>
-                    </section>
-                    <section>
-                        <h2>with good ratings!</h2>
-                        <div>
-                            <img src="img/intro/002-high-ratings.png" style="max-width:400px" />
-                            <img src="img/intro/003-high-ratings.png" style="max-width:400px" />                        
                         </div>
                     </section>
                     <section>
@@ -123,6 +107,40 @@
                 <section>
                     <section>
                         <div class="feature" style="margin-top: 180px;">
+                            <h2>What is Cordova?</h2>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Cordova - The details</h2>
+                        <ul>
+                            <li class="fragment">Make native apps using HTML, CSS, and Javascript</li>
+                            <li class="fragment">Making the interface = building a webpage</li>
+                            <li class="fragment">Native advantage - Access parts of the device that a webpage can't</li>
+                            <li class="fragment">Make an app for iOS, Android, Windows Phone, Blackberry, Firefox OS, and more</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>What about Phonegap?</h2>
+                        <ul>
+                            <li>Adobe's mobile development framework that is powered by Cordova</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Cordova vs. Phonegap</h2>
+                        <ul>
+                            <li class="fragment">Phonegap makes cloud-based builds</li>
+                            <li class="fragment">This guide uses command line <strong>Cordova</strong></li>
+                            <li class="fragment good">Free, license isn't restrictive</li>
+                            <li class="fragment good">Build locally with no internet connection</li>
+                            <li class="fragment good">Compatible with more third-party plugins</li>
+                            <li class="fragment bad">More setup than Phonegap</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <div class="feature" style="margin-top: 180px;">
                             <h2>Setting up Cordova</h2>
                         </div>
                     </section>
@@ -142,18 +160,6 @@
                             <li class="fragment">Cordova command line. <a href="http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html#The%20Command-Line%20Interface">Installation instructions</a></li>
                         </ul>
                     </section>
-                    <section>
-                        <h2>Cordova vs. Phonegap</h2>
-                        <ul>
-                            <li class="fragment">Phonegap makes cloud-based builds</li>
-                            <li class="fragment">This guide uses command line <strong>Cordova</strong></li>
-                            <li class="fragment good">Free, license isn't restrictive</li>
-                            <li class="fragment good">Build locally with no internet connection</li>
-                            <li class="fragment good">Compatible with more third-party plugins</li>
-                            <li class="fragment bad">More setup than Phonegap</li>
-                        </ul>
-                    </section>
-
                     <section>
                         <div class="feature" style="margin-top: 180px;">
                             <h2>Setting up Android</h2>
@@ -261,7 +267,7 @@
                         <h2>Xcode is ready</h2>
                         <ul>
                             <li class="fragment">You can build iOS apps</li>
-                            <li class="fragment bad">... for now</li>
+                            <li class="fragment">When you update something, make sure it still works</li>
                         </ul>
                     </section>
                 </section>
@@ -321,11 +327,10 @@
                     <section>
                         <h2>Run on Device hardware (recommended)</h2>
                         <ul>
-                            <li class="fragment">Android Emulator ...</li>
-                            <li class="fragment">...</li>
-                            <li class="fragment">...</li>
-                            <li class="fragment">... slow.</li>
-                            <li class="fragment">We'll use the command line</li>
+                            <li class="fragment">Android Emulator:</li>
+                            <li class="fragment">it can be slow</li>
+                            <li class="fragment">Test devices you don't have</li>
+                            <li class="fragment">We'll use the Cordova command line</li>
                         </ul>
                     </section>
                     <section>
@@ -355,10 +360,10 @@
                     <section>
                         <h2>Run it and debug it</h2>
                         <ul>
-                           <li><strong>cordova run android</strong></li>
-                           <li>Android tools - <strong>monitor</strong> command. View all of your app's log output on your PC</li>
-                           <li>You must delete the app from the device if you run it again!</li>
-                           <li>Delete the app from the device from the PC command line with <strong>adb uninstall &lt;bundle id&gt;</strong></li>
+                           <li class="fragment"><strong>cordova run android</strong></li>
+                           <li class="fragment">Android tools - <strong>monitor</strong> command. View all of your app's log output on your PC</li>
+                           <li class="fragment">You must delete the app from the device if you run it again!</li>
+                           <li class="fragment">Delete the app from the device from the PC command line with <strong>adb uninstall &lt;bundle id&gt;</strong></li>
                         </ul>
                     </section>
                 </section>
@@ -371,11 +376,9 @@
                     <section>
                         <h2>Run on Device hardware (recommended)</h2>
                         <ul>
-                            <li class="fragment">iOS Simulator ...</li>
-                            <li class="fragment">...</li>
-                            <li class="fragment">...</li>
-                            <li class="fragment">&amp;!@#$</li>
-                            <li class="fragment">... weird.</li>
+                            <li class="fragment">iOS Simulator allows fast builds</li>
+                            <li class="fragment">No device initialization or keys needed to test</li>
+                            <li class="fragment">...but that setup must be done eventually</li>
                             <li class="fragment">We'll use Xcode</li>
                         </ul>
                     </section>
@@ -400,13 +403,13 @@
                     </section>
                     <section>
                         <div class="feature" style="margin-top: 180px;">
-                            <h2>When Xcode goes horribly wrong</h2>
+                            <h2>When Xcode Screws Up</h2>
                         </div>
                     </section>
                     <section>
                         <h2>Failed to Code Sign</h2>
                         <ul>
-                            <li class="fragment">One of many, many possible errors</li>
+                            <li class="fragment">(An example hiccup in the process)</li>
                             <li class="fragment">To run on your device, the app must be signed</li>
                             <li class="fragment">You must set up a developer profile in Xcode. Select Fix Issue</li>
                         </ul>
@@ -438,10 +441,6 @@
                         <h2>Sidebar: Installing app on devices - Prereqs (cont'd)</h2>
                         <ul>
                             <li class="fragment">You must install that development certificate</li>
-                            <li class="fragment">You must acquire a Samsung Galaxy S6 </li>
-                            <li class="fragment">You must upload to Apple a video of yourself microwaving the Samsung Galaxy S6 for 9 minutes and 31 seconds while chanting "Steve Jobs is the thing to end all things and one more thing"</li>
-                            <li class="fragment">...</li>
-                            <li class="fragment">it's complicated</li>
                         </ul>
                     </section>
                     <section>
@@ -475,7 +474,7 @@
                         <h2>Import your exported developer profile</h2>
                         <ul>
                             <li class="fragment">I had to import it on the other Mac</li>
-                            <li class="fragment">You are going to encounter all kinds of weirdness like this. accept it and move on</li>
+                            <li class="fragment">Weirdness like this happens. Accept it and move on</li>
                             <li class="fragment">finally, allow keychain access</li>
                         </ul>
                         <div>
@@ -496,7 +495,7 @@
                         <ul>
                             <li class="fragment good">It never has to be fixed again!</li>
                             <li class="fragment bad">I lied</li>
-                            <li class="fragment bad">if anything changes it will probably break</li>
+                            <li class="fragment bad">if anything changes you may need to fix it again</li>
                             <li class="fragment bad">iOS version update, Xcode version update, Mac OS version update</li>
                             <li class="fragment bad">Changing anything on your PC</li>
                         </ul>
@@ -563,7 +562,7 @@
                     <section>
                         <h2>Third-party plugins</h2>
                         <ul>
-                            <li class="fragment">They could work well or terribly</li>
+                            <li class="fragment">Ensure it's compatible</li>
                             <li class="fragment">Watch for plugin updates! Lock your code to one version if using automated builds</li>
                             <li class="fragment">Cordova updates break older plugins</li>
                         </ul>
@@ -585,9 +584,8 @@
                         </div>
                     </section>
                     <section>
-                        <h2>iOS Oddities</h2>
+                        <h2>iOS Considerations</h2>
                         <ul>
-                            <li class="fragment bad">"It doesn't run on my device"</li>
                             <li class="fragment">Installing and setting up XCode</li>
                             <li class="fragment">Developer Licensing, Provisioning Profiles, Certificates</li>
                             <li class="fragment">App Store Submission and Approval</li>
@@ -595,16 +593,16 @@
                         </ul>
                     </section>
                     <section>
-                        <h2>Android Oddities</h2>
+                        <h2>Android Considerations</h2>
                         <ul>
-                            <li class="fragment bad">"It doesn't run on these 10,000 other devices"</li>
                             <li class="fragment">Device Fragmentation</li>
                             <li class="fragment">Intents</li>
                             <li class="fragment">Hardware buttons Back, Home, Search, and Info</li>
+
                         </ul>
                     </section>
                     <section>
-                        <h2>General Cross-Platform Oddities</h2>
+                        <h2>General Cross-Platform Considerations</h2>
                         <ul>
                             <li class="fragment">Different UI Behaviors and User Expectations</li>
                             <li class="fragment">Different implementations of software functionality. <strong class="highlight">Local Notifications</strong></li>
@@ -623,8 +621,6 @@
                         <h2>More Solutions to iOS, Android, and Cross-Platform issues</h2>
                         <ul>
                             <li class="fragment">Test</li>
-                            <li class="fragment">Test</li>
-                            <li class="fragment">Know your users</li>
                             <li class="fragment">Test</li>
                             <li class="fragment">Test on devices, test with users, test on more devices, test in browsers</li>
                         </ul>
@@ -679,13 +675,16 @@
                             <p>(Discussion)</p>
                         </div>
                     </section>
-
                 </section>
                 <section>
                     <h1>THANK YOU</h1>
                     <h3>Any Questions?</h3>
-                    <p><br><a href="http://wrenr.github.io/cordova-workshop/" target="_blank">wrenr.github.io/cordova-workshop/</a></p>
                     <br>
+                    <p>
+                        <small>
+                            <a href="https://twitter.com/wrenjs" target="_blank">wrenjs [Twitter]</a>
+                        </small>
+                    </p>
                     <p>
                         <small>
                             <a href="https://github.com/wrenr" target="_blank">wrenr [GitHub]</a>
